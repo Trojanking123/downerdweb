@@ -48,9 +48,8 @@ const {
 
 const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`
 ---
-
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8d0b6cc8981a436e9ce0aa4524efd628"}'></script>
 <header
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "8d0b6cc8981a436e9ce0aa4524efd628"}'></script>
   class:list={[
     { sticky: isSticky, relative: !isSticky, dark: isDark },
     "top-0 z-40 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out",
