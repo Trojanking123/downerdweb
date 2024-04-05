@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Downerd
+  site: 'https://downerd.com'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Downerd
+    template: '%s — Downerd'
+  description: "\U0001F680 A powerful, cross-platform, cloud-oreinted free download manager."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Downerd
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -79,7 +79,7 @@ ui:
         heading: InterVariable
       colors:
         default: rgb(16 16 16)
-        heading: rgb(0 0 0)
+        heading: rgb(0 164 139)
         muted: rgb(16 16 16 / 66%)
         bgPage: rgb(255 255 255)
         primary: rgb(1 97 239)
